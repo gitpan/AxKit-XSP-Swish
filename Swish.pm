@@ -3,7 +3,7 @@ package AxKit::XSP::Swish;
 @ISA = ('Apache::AxKit::Language::XSP::TaglibHelper');
 
 # Swish-e Taglib
-$VERSION = '0.1';
+$VERSION = '0.2';
 
 $NS = 'http://nexus-is.ca/NS/xsp/swish/v1';
 

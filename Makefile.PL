@@ -4,5 +4,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'AxKit::XSP::Swish',
     'VERSION_FROM'	=> 'Swish.pm', # finds $VERSION
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {
+			'SWISHE' =>0,
+			   } 
 );
