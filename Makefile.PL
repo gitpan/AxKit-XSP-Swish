@@ -5,6 +5,6 @@ WriteMakefile(
     'NAME'		=> 'AxKit::XSP::Swish',
     'VERSION_FROM'	=> 'Swish.pm', # finds $VERSION
     'PREREQ_PM'		=> {
-			'SWISHE' =>0,
+			'SWISHE' =>'0.02',
 			   } 
 );
